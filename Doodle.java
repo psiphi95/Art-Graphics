@@ -56,7 +56,7 @@ public class Doodle {
    public static void drawLauncher(Graphics g, int x, int y, int size) {
       g.setColor(Color.GREEN);
       g.fillRect(x, y, 300, 30);
-	   g.fillRect(x+230, y-20, 70, 20);
+      g.fillRect(x+230, y-20, 70, 20);
       g.fillRect(x+230, y-60, 40, 40);
       g.fillOval(x+120, y-10, 50, 25);
       g.fillOval(x-5, y-10, 20, 20);
